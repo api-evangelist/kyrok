@@ -1,22 +1,81 @@
 aid: kyrok
 name: Kyrok
-description: Kyrok is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Kyrok GmbH is a Berlin-based software company building an AI operating
+  system for mid-sized pharmaceutical and chemical manufacturers in Europe. The platform
+  layers over a company''s existing ERP (SAP S/4HANA, SAP R/3, Microsoft Dynamics 365,
+  Infor, Applus) and connects the systems supply chain teams currently hold together
+  by hand into intelligent operations across customer service, production planning,
+  material planning and procurement. Kyrok positions itself on an "AI assists, people
+  decide" model, running on European infrastructure in Frankfurt am Main, GDPR-compliant,
+  with ISO 27001 and ISO 42001 certifications in progress. The company announced a
+  EUR 3.1M round in June 2026 and names AnalytiChem and Konapharma as customers. Kyrok
+  connects to ERP systems via API but publishes no public developer API, API reference,
+  or SDKs as of this enrichment pass.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kyrok.com/og/home-en.jpg
 url: https://raw.githubusercontent.com/api-evangelist/kyrok/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - speedinvest
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Supply Chain
+- Artificial Intelligence
+- ERP
+- Pharmaceuticals
+- Chemicals
+- Manufacturing
+- Enterprise Software
+- Germany
 apis: []
+common:
+- type: DomainSecurity
+  url: security/kyrok-domain-security.yml
+- type: Website
+  url: https://kyrok.com/en
+- type: TrustCenter
+  url: security/kyrok-trust-center.yml
+- type: Compliance
+  url: https://trust.kyrok.com/
+- type: WellKnown
+  url: well-known/kyrok-well-known.yml
+- type: LLMsTxt
+  url: llms/kyrok-llms.txt
+- type: GitHubOrganization
+  url: https://github.com/kyrok
+- type: Blog
+  url: https://kyrok.com/en/press
+- type: PrivacyPolicy
+  url: https://kyrok.com/en/legal/privacy
+- type: Imprint
+  url: https://kyrok.com/en/legal/imprint
+- type: Support
+  url: mailto:support@kyrok.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/kyrok
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
