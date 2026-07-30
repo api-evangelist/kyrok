@@ -1,0 +1,41 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+url: https://trust.kyrok.com/
+platform: Vanta Trust Center (EU tenant)
+notes: >-
+  trust.kyrok.com resolves independently (the domain has no wildcard DNS — an
+  unrelated subdomain fails to resolve) and returns a Vanta-hosted Trust Center
+  shell titled "Kyrok Trust Center". The report body is rendered client-side by
+  Vanta's JavaScript bundle, so the certification list could not be read from the
+  served HTML during this pass. The compliance posture recorded below is quoted
+  from Kyrok's own public homepage/FAQ, not from the Trust Center render.
+certifications: []
+certifications_in_progress:
+- name: ISO/IEC 27001
+  status: in progress
+  evidence: https://kyrok.com/en
+- name: ISO/IEC 42001
+  status: in progress
+  evidence: https://kyrok.com/en
+compliance:
+- name: GDPR
+  status: claimed compliant
+  evidence: https://kyrok.com/en
+data_residency:
+  region: EU
+  location: Frankfurt am Main, Germany
+  evidence: https://kyrok.com/en
+quotes:
+- source: https://kyrok.com/en
+  text: >-
+    In Frankfurt am Main, Germany, on European infrastructure and fully
+    GDPR-compliant. ISO certifications 27001 and 42001 are currently in progress.
+evidence:
+- source: https://trust.kyrok.com/
+  kind: vanta-trust-center
+  status: 200
+  detail: 'HTML title "Kyrok Trust Center"; canonical https://trust.kyrok.com'
+- source: https://kyrok.com/en
+  kind: homepage-faq
+  status: 200

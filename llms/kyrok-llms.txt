@@ -1,0 +1,44 @@
+# Kyrok
+
+> Kyrok GmbH is a Berlin-based software company building an AI operating system for
+> mid-sized pharmaceutical and chemical manufacturers in Europe. The platform layers
+> over an existing ERP and connects customer service, production planning, material
+> planning and procurement into intelligent operations under an "AI assists, people
+> decide" model. Kyrok connects to ERP systems via API but publishes no public
+> developer API, API reference, or SDKs as of 2026-07-19.
+
+## Company
+
+- [Website](https://kyrok.com/en): Product overview, customer case studies, and FAQ.
+- [Press](https://kyrok.com/en/press): Company announcements, including the June 2026 EUR 3.1M round.
+- [GitHub organization](https://github.com/kyrok): First-party GitHub org (one public repo, `md2pdf` — a documentation tool, not an API client).
+- [LinkedIn](https://www.linkedin.com/company/kyrok): Company page.
+
+## Product
+
+- ERP systems integrated: SAP S/4HANA, SAP R/3, Microsoft Dynamics 365, Infor, Applus.
+- Operational areas covered: customer service, production planning, material planning, procurement.
+- Named customers: AnalytiChem, Konapharma.
+
+## Trust and compliance
+
+- [Trust Center](https://trust.kyrok.com/): Vanta-hosted trust report.
+- Data residency: European infrastructure, Frankfurt am Main, Germany.
+- GDPR: claimed compliant. ISO/IEC 27001 and ISO/IEC 42001: certifications in progress.
+
+## Legal
+
+- [Imprint](https://kyrok.com/en/legal/imprint): Kyrok GmbH, Weinmeisterstrasse 12, 10178 Berlin, Germany. HRB 275566 B. VAT DE456508853.
+- [Privacy policy](https://kyrok.com/en/legal/privacy)
+
+## API status
+
+Kyrok has no public API surface at this time. There is no developer portal, API
+reference, OpenAPI description, sandbox, SDK, CLI, MCP server, webhook catalog, or
+/.well-known/ discovery document. ERP connectivity is delivered as part of the
+commercial engagement rather than as a self-serve public API.
+
+## API Evangelist
+
+- [Kyrok on APIs.io](https://apis.io/provider/kyrok/)
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/kyrok/refs/heads/main/apis.yml)

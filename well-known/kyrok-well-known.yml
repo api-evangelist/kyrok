@@ -1,0 +1,31 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of the Kyrok web host
+host: https://kyrok.com
+notes: >-
+  Kyrok publishes no /.well-known/ discovery surface. Every probed path returned
+  404. There is no api.kyrok.com or developer.kyrok.com host to probe (both fail
+  to resolve). Recorded as observed — absence is valid data, not a gap to fill.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+other_probes:
+- path: /robots.txt
+  status: 404
+- path: /sitemap.xml
+  status: 404
+- path: /llms.txt
+  status: 404
+hosts_not_resolving:
+- api.kyrok.com
+- developer.kyrok.com
+- app.kyrok.com
+- status.kyrok.com
