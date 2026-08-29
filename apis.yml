@@ -11,6 +11,17 @@ description: 'Kyrok GmbH is a Berlin-based software company building an AI opera
   EUR 3.1M round in June 2026 and names AnalytiChem and Konapharma as customers. Kyrok
   connects to ERP systems via API but publishes no public developer API, API reference,
   or SDKs as of this enrichment pass.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
